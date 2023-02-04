@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #000;
+    width: 620px;
+    height: 520px;
+}
+
+.top-blue{
+    background-color: #BFE4FE;
+    height: 120px;
+}
+
+.down-blue{
+    background-color: #A8DCEA;
+    height: 400px;
+}
