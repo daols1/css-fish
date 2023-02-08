@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    background-color: #000;
+    background-color: transparent;
     width: 620px;
     height: 520px;
 }
@@ -135,5 +135,15 @@ body{
     left: -10px;
 }
 
+@media screen and (max-width:600px) {
+    .container{
+        scale: .7;
+    }
+}
 
+@media screen and (max-width:410px) {
+    .container{
+        scale: .5;
+    }
+}
 
